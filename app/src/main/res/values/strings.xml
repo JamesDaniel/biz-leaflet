@@ -2,4 +2,6 @@
   <string name="app_name">BizLeaflet</string>
   <string name="info">Info</string>
   <string name="biz_name">3D Print Share</string>
+  <string name="description">This app represents a simple idea. Crowd sharing 3D printers. If you own a 3D printer and want to make a little extra cash, register as \'maker\'. \n\nIf you want something 3D printed but don\'t have a printer, register as a \'designer\'</string>
+  <string name="contact">Without a community, this app will not be developed further. If you like the idea, then leave a 5 star review with the top 3 in app features you\'d like to see.\n\nApt 21, Stanford St. Dublin 1, Ireland. EU</string>
 </resources>

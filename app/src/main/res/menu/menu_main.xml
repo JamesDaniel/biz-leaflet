@@ -5,6 +5,7 @@
     android:id="@+id/miInfo"
     android:icon="@drawable/ic_info"
     app:showAsAction="ifRoom"
+    android:visible="false"
     android:title="@string/info">
   </item>
 </menu>

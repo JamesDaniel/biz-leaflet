@@ -21,11 +21,42 @@
     app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
   <android.support.v7.widget.AppCompatImageView
+    android:id="@+id/main_image"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:scaleType="fitCenter"
     android:src="@drawable/printer"
     android:adjustViewBounds="true"
     app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+
+  <android.support.v7.widget.AppCompatTextView
+    android:id="@+id/description"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/padding"
+    android:layout_marginStart="@dimen/padding"
+    android:layout_marginEnd="@dimen/padding"
+    android:text="@string/description"
+    android:textSize="@dimen/decription_text"
+    android:textAlignment="center"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:textColor="@color/primary_text"
+    app:layout_constraintTop_toBottomOf="@+id/main_image"/>
+
+  <android.support.v7.widget.AppCompatTextView
+    android:id="@+id/contact"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/padding"
+    android:layout_marginStart="@dimen/padding"
+    android:layout_marginEnd="@dimen/padding"
+    android:text="@string/contact"
+    android:textAlignment="center"
+    android:textColor="@color/primary_text"
+    android:textSize="@dimen/decription_text"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"/>
 
 </android.support.constraint.ConstraintLayout>
